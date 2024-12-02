@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <script src="https://example.com/scripts/example.js" async></script>
+        <script src="https://acquisition-test-kamijis-project.s3.ap-northeast-1.amazonaws.com/track-access.js" async></script>
         {children}
       </body>
     </html>
