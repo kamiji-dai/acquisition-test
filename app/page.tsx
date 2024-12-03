@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <Script
-        src="https://strage-dev.meet-meet.com/static/script/trackAccess.js?mcvsn=11111"
+        src="https://strage-dev.meet-meet.com/static/script/trackAccess.js"
         strategy="lazyOnload"
       />
       <Link href="/form">
