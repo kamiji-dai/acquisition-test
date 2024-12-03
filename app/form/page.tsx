@@ -17,7 +17,7 @@ export default function Form() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-md">
+      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-md">
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 mb-2">
             名前
@@ -31,7 +31,7 @@ export default function Form() {
             required
           />
         </div>
-        <Button type="submit">送信</Button>
+        <Button type="submit">申し込み</Button>
       </form>
     </div>
   )
