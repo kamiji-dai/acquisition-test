@@ -4,7 +4,8 @@ export default function Complete() {
   return (
     <div>
       <Script
-        src="https://strage-dev.meet-meet.com/static/script/trackConversion.js?mud=100"
+        src="https://storage-dev.meet-meet.com/static/script/trackConversion.js?mud=100"
+        // src="https://acquisition-test-kamijis-project.s3.ap-northeast-1.amazonaws.com/trackConversion.js?mud=111"
         strategy="lazyOnload"
       />
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
