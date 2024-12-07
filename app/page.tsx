@@ -42,8 +42,8 @@ export default function Home() {
   return (
     <div>
       <Script
-        src="https://storage-dev.meet-meet.com/static/script/trackAccess.js"
-        // src="https://acquisition-test-kamijis-project.s3.ap-northeast-1.amazonaws.com/trackAccess.js"
+        // src="https://storage-dev.meet-meet.com/static/script/trackAccess.js"
+        src="https://acquisition-test-kamijis-project.s3.ap-northeast-1.amazonaws.com/trackAccess.js"
         strategy="lazyOnload"
       />
       <p className="text-xl fixed top-1/3 left-1/2 transform -translate-x-1/2">【Cookie】mcvsn: {mcvsnValue}</p>
